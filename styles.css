@@ -1,0 +1,100 @@
+/* Font for whole site is Garamond */
+body {
+    font-family: 'EB Garamond', serif;
+}
+
+
+
+
+/* Navbar logo */
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+
+.navbar-light .navbar-brand {
+    color: #1976d2;
+}
+
+/* Navbar background color */
+.navbar {
+    background-color: white;
+}
+  
+  /* Jumbotron background and font styles */
+.jumbotron {
+    /* Background */
+    background-attachment: fixed;
+    background-color: #1976d2;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Fonts */
+    color: white;
+}
+
+  /* Icon color */
+.fas {
+     color: #1976d2; 
+}
+.fab {
+    color: #1976d2;
+}
+
+/* Footer nav styles */
+.nav-link-two {
+    line-height: 1.2;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* About page styles */
+.about-headline-container {
+    padding-top: 70px;
+    text-align: center;
+}
+
+.profile-photo-container {
+    text-align: center;
+    padding-top: 30px;
+}
+.profile-photo-container img {
+    width: 500px;
+    height: 500px;
+}
+
+.about-container {
+    text-align: left;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.about-body-quote {
+    font-style: italic;
+}
+
+/* Blog page styles */
+.blog-headline-container {
+    padding-top: 70px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.blog-card-container {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 25px;
+}
+
+/* Styles for blog Posts */
+.post-headline-container {
+    padding-top: 70px;
+    text-align: center;
+}
+.post-container {
+    text-align: left;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
